@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #1D1D1D; /* Dark background similar to FTX */
+    color: #FFFFFF; /* White text for contrast */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #141414; /* Slightly darker header */
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #00AEEF; /* FTX-like blue color */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #00AEEF; /* Hover effect */
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #242424; /* Hero section background */
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #CCCCCC;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: #00AEEF;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0089C6;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #141414;
+    padding: 20px 0;
+    text-align: center;
+    color: #777777;
+    font-size: 0.9rem;
+}
